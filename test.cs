@@ -57,6 +57,33 @@ namespace GoogleCloudSamples
             var previous4;
             string previous4Text;
 
+            //Ajouter à la fin dans la boucle : foreach token in token
+            //Stockage des mots précédents (n-1, n-2, n-3 et n-4) dans la liste
+              if(previous3 != null){
+                previous4 = previous3;
+                previous4Text = previous3Text;
+              }
+              if(previous2 != null){
+                previous3 = previous2;
+                previous3Text = previous2Text;
+              }
+              if(previous != null){
+                previous2 = previous;
+                previous2Text=previousText;
+              }
+              previous = part.partOfSpeech;
+              previousText = part.text.content;
+
+              //Réinitialisation de certaines variables à la fin de chaque phrase
+              if(part.text.content=="."){
+                sauf =false;
+                full = false;
+                fullam = false;
+                //horraire=[];
+                horraire = " ";
+                c=0;
+              }
+
             //Affiche le nom et le prénom 
             if( prenom != null ){
                 Console.WriteLine(prenom);
@@ -350,10 +377,37 @@ namespace GoogleCloudSamples
             }
         }
 
-        //à mettre dans un while
+        //True = si toutes les variables sont implémentées
+        public bool verifB()
+        {
+            bool a = true;
+            if(age == null)
+            {
+                a = false;
+            }
+            if( nom == null)
+            {
+                a=false;
+            }
+            if( prenom == null)
+            {
+                a=false;
+            }
+            if( loisir == null)
+            {
+                a=false;
+            }
+            if(dispo.length == 0)
+            {
+                a=false;
+            }
+            
+            return a;
+
+        }
+        
         public string[] verif()
         {   
-            bool a = true;
             string[] answer;
             if(age == null)
             {
@@ -391,7 +445,7 @@ namespace GoogleCloudSamples
                     answer.Add("Vous êtes disponible le " + element);
                 }
             }
-            return answer;
+            return answer ;
         }
 
         public void analysebesoin(var part)
