@@ -1440,7 +1440,13 @@ namespace Solution
             wait --;
             if(wait == 0)
             {
-                timer2.Stop();
+                if (recordingState == RecordingState.RequestedStop)
+                {
+                    cts = new CancellationTokenSource();
+                    textUser = "";
+                }
+
+                    timer2.Stop();
                 synth.Speak(oscarEnter.Text);
                 
                 userRequest.Text = "";
