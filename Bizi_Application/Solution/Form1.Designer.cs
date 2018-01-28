@@ -54,6 +54,16 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -115,11 +125,11 @@
             // 
             this.oscarEnter.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.oscarEnter.Font = new System.Drawing.Font("Open Sans", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oscarEnter.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.oscarEnter.Location = new System.Drawing.Point(663, 29);
+            this.oscarEnter.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.oscarEnter.Location = new System.Drawing.Point(500, 66);
             this.oscarEnter.Multiline = true;
             this.oscarEnter.Name = "oscarEnter";
-            this.oscarEnter.Size = new System.Drawing.Size(400, 281);
+            this.oscarEnter.Size = new System.Drawing.Size(568, 260);
             this.oscarEnter.TabIndex = 3;
             this.oscarEnter.Text = "Discours prononcé par Oscar";
             // 
@@ -127,12 +137,12 @@
             // 
             this.userRequest.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.userRequest.Font = new System.Drawing.Font("Open Sans", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userRequest.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.userRequest.Location = new System.Drawing.Point(515, 362);
+            this.userRequest.ForeColor = System.Drawing.Color.Teal;
+            this.userRequest.Location = new System.Drawing.Point(500, 403);
             this.userRequest.Multiline = true;
             this.userRequest.Name = "userRequest";
             this.userRequest.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.userRequest.Size = new System.Drawing.Size(400, 281);
+            this.userRequest.Size = new System.Drawing.Size(568, 260);
             this.userRequest.TabIndex = 6;
             this.userRequest.Text = "Discours prononcé par l\'utilisateur";
             // 
@@ -147,6 +157,7 @@
             this.prenomTB.Name = "prenomTB";
             this.prenomTB.Size = new System.Drawing.Size(106, 38);
             this.prenomTB.TabIndex = 9;
+            this.prenomTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // nomTB
             // 
@@ -159,6 +170,7 @@
             this.nomTB.Name = "nomTB";
             this.nomTB.Size = new System.Drawing.Size(106, 38);
             this.nomTB.TabIndex = 10;
+            this.nomTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ageTB
             // 
@@ -171,6 +183,7 @@
             this.ageTB.Name = "ageTB";
             this.ageTB.Size = new System.Drawing.Size(106, 38);
             this.ageTB.TabIndex = 11;
+            this.ageTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // dispoTB
             // 
@@ -178,11 +191,12 @@
             this.dispoTB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dispoTB.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dispoTB.ForeColor = System.Drawing.Color.White;
-            this.dispoTB.Location = new System.Drawing.Point(198, 120);
+            this.dispoTB.Location = new System.Drawing.Point(198, 144);
             this.dispoTB.Multiline = true;
             this.dispoTB.Name = "dispoTB";
-            this.dispoTB.Size = new System.Drawing.Size(210, 144);
+            this.dispoTB.Size = new System.Drawing.Size(210, 126);
             this.dispoTB.TabIndex = 12;
+            this.dispoTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // loisirTB
             // 
@@ -190,11 +204,12 @@
             this.loisirTB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.loisirTB.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loisirTB.ForeColor = System.Drawing.Color.White;
-            this.loisirTB.Location = new System.Drawing.Point(86, 120);
+            this.loisirTB.Location = new System.Drawing.Point(86, 144);
             this.loisirTB.Multiline = true;
             this.loisirTB.Name = "loisirTB";
-            this.loisirTB.Size = new System.Drawing.Size(106, 110);
+            this.loisirTB.Size = new System.Drawing.Size(106, 127);
             this.loisirTB.TabIndex = 13;
+            this.loisirTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // timer2
             // 
@@ -309,10 +324,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.Font = new System.Drawing.Font("Open Sans", 24F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label5.Location = new System.Drawing.Point(933, 497);
+            this.label5.BackColor = System.Drawing.Color.Teal;
+            this.label5.Font = new System.Drawing.Font("Open Sans", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(714, 337);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(110, 55);
             this.label5.TabIndex = 24;
@@ -321,14 +336,132 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.White;
-            this.label6.Font = new System.Drawing.Font("Open Sans", 24F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.DarkTurquoise;
-            this.label6.Location = new System.Drawing.Point(505, 144);
+            this.label6.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label6.Font = new System.Drawing.Font("Open Sans", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(714, 1);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(131, 55);
             this.label6.TabIndex = 25;
             this.label6.Text = "Oscar";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label7.Font = new System.Drawing.Font("Open Sans Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(105, 60);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(66, 20);
+            this.label7.TabIndex = 26;
+            this.label7.Text = "Prénom";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label8.Font = new System.Drawing.Font("Open Sans Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(229, 60);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(44, 20);
+            this.label8.TabIndex = 27;
+            this.label8.Text = "Nom";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label9.Font = new System.Drawing.Font("Open Sans Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(339, 60);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(36, 20);
+            this.label9.TabIndex = 28;
+            this.label9.Text = "Âge";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label10.Font = new System.Drawing.Font("Open Sans Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(114, 121);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(54, 20);
+            this.label10.TabIndex = 29;
+            this.label10.Text = "Loisirs";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label11.Font = new System.Drawing.Font("Open Sans Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(250, 121);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(106, 20);
+            this.label11.TabIndex = 30;
+            this.label11.Text = "Disponibilités";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Teal;
+            this.label12.Font = new System.Drawing.Font("Open Sans Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(51, 345);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(71, 20);
+            this.label12.TabIndex = 31;
+            this.label12.Text = "Activité :";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Teal;
+            this.label13.Font = new System.Drawing.Font("Open Sans Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(26, 374);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(96, 20);
+            this.label13.TabIndex = 32;
+            this.label13.Text = "Participant :";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Teal;
+            this.label14.Font = new System.Drawing.Font("Open Sans Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(60, 402);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(62, 20);
+            this.label14.TabIndex = 33;
+            this.label14.Text = "Heure :";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.Teal;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Location = new System.Drawing.Point(500, 337);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(568, 57);
+            this.textBox1.TabIndex = 34;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Location = new System.Drawing.Point(500, 0);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(568, 57);
+            this.textBox2.TabIndex = 35;
             // 
             // Form1
             // 
@@ -337,7 +470,17 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1080, 670);
             this.Controls.Add(this.label6);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label5);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.heureActTB);
@@ -394,6 +537,16 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 

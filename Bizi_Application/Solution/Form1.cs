@@ -394,6 +394,9 @@ namespace Solution
                             writeMore = false;
                             recordingState = RecordingState.RequestedStop;
                             timer1.Stop();
+                            oscarEnter.Text = "";
+                            userRequest.Text = "";
+                            label2.Text = "60";
                             recording_time = 60;
                             label2.Text = recording_time.ToString();
                             button3.Visible = true;
